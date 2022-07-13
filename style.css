@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+.half-width{
+    width: 50%;
+    padding: 0 7%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width h1{  
+  font-size: 50px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.random-btn{
+ padding:15px 40px;
+ border: none;
+ background-image: linear-gradient( to left,orange,tomato);
+ border-radius: 5px;
+ cursor: pointer;
+}
+.random-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.middle{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nije-banaisi{
+    padding: 15px 40px ;
+    border: none;
+    background-image: linear-gradient(to right ,tomato,orange);
+    border-radius: 5px;
+
+}
+.nije-banaisi a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footeer{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.alvi{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.new-design{
+    width: 40%;
+    
+    margin: 40px;
+    padding: 30px;
+    box-shadow: 10px 10px 50px grey;
+
+}
+.new-design h1{
+    font-size: 50px;
+}
+.new-design h3{
+    color: orange;
+}
+.new-design p{
+    margin-bottom: 80px;
+}
+#one{
+    border-left: 7px solid tomato;
+}
+#two{    border-left: 7px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
